@@ -1,0 +1,4 @@
+import Extract
+
+
+Extract.openWhatsapp()
