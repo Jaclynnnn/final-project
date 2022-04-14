@@ -8,5 +8,7 @@ def openWhatsapp():
     driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe")
     driver.get("https://web.whatsapp.com/")
     driver.maximize_window()
-    sleep(5)
+    print("please scan QR code and press Enter")
+    input()
+    print("Logged in!")
 
